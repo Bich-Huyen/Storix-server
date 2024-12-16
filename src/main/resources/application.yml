@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres?prepareThreshold=0
+    #username: postgres.zqindmcmmrlhtovgitkd
+#    password: ${PASSWORD}
+    driver-class-name: org.postgresql.Driver
+    username: postgres.huycliobbpjosuxfhimq
+    password: 2vDlXYWsU2WlLQPP
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 8086
