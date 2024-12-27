@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.Data;
 import org.inventory.management.server.entity.StockReportDetail;
 import org.inventory.management.server.model.stockDetail.StockReportDetailModelRes;
+import org.inventory.management.server.model.stock.StockReportModelRes;
 
 import java.math.BigDecimal;
 import java.util.Date;
