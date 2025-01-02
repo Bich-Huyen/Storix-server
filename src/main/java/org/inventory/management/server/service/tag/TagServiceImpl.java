@@ -39,12 +39,14 @@ public class TagServiceImpl implements  TagService{
             tag.setName(tagModel.getName());
             tag.setDescription(tagModel.getDescription());
             tag.setArea(area);
+            tag.setIsDeleted(false);
         }
         else{
             tag = Tag.builder()
                     .name(tagModel.getName())
                     .description(tagModel.getDescription())
                     .createdDate(new Date())
+                    .isDeleted(false)
                     .area(area)
                     .build();
         }
